@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thành viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🎓 Nhóm Sinh Viên</div>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="thanhvien.html">Thành viên</a>
+        <a class="active" href="dangky.html">Đăng ký</a>
+        <a href="lienhe.html">Liên hệ</a>
+    </nav>
+</header>
+
+<main class="form-page">
+    <form id="registerForm" class="form-box">
+        <div class="form-icon">👤</div>
+        <h1>Đăng ký thành viên</h1>
+        <p>Tham gia cùng nhóm sinh viên!</p>
+
+        <label for="fullname">Họ và tên</label>
+        <input type="text" id="fullname" placeholder="Nhập họ và tên">
+
+        <label for="studentId">Mã sinh viên</label>
+        <input type="text" id="studentId" placeholder="Ví dụ: 222123456">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Nhập email">
+
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" placeholder="Ít nhất 6 ký tự">
+
+        <button type="submit">Đăng ký</button>
+
+        <p id="registerMessage" class="message"></p>
+    </form>
+</main>
+
+<footer>© 2026 - Website nhóm sinh viên</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

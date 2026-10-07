@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Gửi góp ý</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🎓 Nhóm Sinh Viên</div>
+        <nav>
+            <a href="index.html">Trang chủ</a>
+            <a href="thanhvien.html">Thành viên</a>
+            <a href="dangky.html">Đăng ký</a>
+            <a class="active" href="lienhe.html">Liên hệ</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+
+        <section class="contact-info">
+            <h1>Liên hệ với chúng tôi</h1>
+            <p>Nếu bạn có thắc mắc, góp ý hoặc muốn hợp tác, 
+                hãy gửi thông tin cho chúng tôi!</p>
+
+            <div class="info-item">
+                <span>📍</span>
+                <div><b>Địa chỉ</b><br>Đại học Công nghệ Đông Á,
+                     Hà Nội</div>
+            </div>
+            
+            <div class="info-item">
+                <span>✉️</span>
+                <div><b>Email</b><br>nhomsinhvien@eaut.edu.vn</div>
+            </div>
+
+            <div class="info-item">
+                <span>☎️</span>
+                <div><b>Số điện thoại</b><br>0123 456 789</div>
+            </div>
+        </section>
+
+        <form id="contactForm" class="form-box contact-form">
+            <h1>Gửi góp ý / Liên hệ</h1>
+
+            <label for="contactName">Họ và tên *</label>
+            <input type="text" id="contactName" placeholder="Nhập họ và tên">
+
+            <label for="contactEmail">Email *</label>
+            <input type="text" id="contactEmail" placeholder="Nhập email">
+
+            <label for="content">Nội dung *</label>
+            <textarea id="content" rows="5" placeholder="Nhập nội dung..."></textarea>
+
+            <button type="submit">Gửi</button>
+
+            <p id="contactMessage" class="message"></p>
+        </form>
+    </main>
+
+    <footer>© 2026 - Website nhóm sinh viên</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
